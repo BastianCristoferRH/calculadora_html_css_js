@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-image: url("https://www.xtrafondos.com/wallpapers/resoluciones/20/paisaje-digital-en-atardecer_2560x1440_5846.jpg");
+    display: flex;
+    font-family: 'Dosis', 'sans-serif';
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+
+}
+
+.contorno {
+    backdrop-filter: blur(5.5px);
+    /** reviasr depsues **/
+    -webkit-backdrop-filter: blur(5.5px);
+    /** revisar despues **/
+    background-color: rgba(255, 255, 255, 0.75);
+    /** revisar despues**/
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    /** puntas redonditas**/
+    box-shadow: 0 4px 30px;
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+
+
+
+}
+
+.pantalla {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px rgba(35, 35, 35, 0.1);
+    font-size: 35px;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+    color: white;
+}
+
+.cal-button-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.cal-button {
+    backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.cal-button:last-child {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    color: white;
+    background-color: #a20bcf;
+}
+
+.cal-button:last-child:hover {
+    background-color: inherit;
+    color: white;
+    border: 1px solid;
+
+}
+
+.cal-button:hover {
+    background-color: rgba(183, 0, 255, 0.75);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    color: white;
+
+}
+
+.cal-button:active {
+    background-color: rgb(60, 33, 85);
+}
+
+.cal-button:last-child:active {
+    background-color: rgb(60, 33, 85);
+}
+
+.doble {
+    flex-basis: 47%;
+}
+
+.triple {
+    flex-basis: 74%;
+}
